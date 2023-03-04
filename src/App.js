@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Layout from "./Pages/Layout/Layout";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello worl</h1>
+      <Layout />
     </div>
   );
 }
