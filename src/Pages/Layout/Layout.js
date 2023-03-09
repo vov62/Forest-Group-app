@@ -7,8 +7,8 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <Hero />
       <About />
+      {/* <Hero /> */}
     </>
   );
 };

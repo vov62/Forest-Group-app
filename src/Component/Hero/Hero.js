@@ -8,16 +8,14 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-content">
         <div className="right">
-          <h1>
-            FOREST <span>GROUP</span> סוכנות נדל"ן
-          </h1>
+          <h1>קבוצת פורסט</h1>
           <h3>
-            עדיין לא מצאת את הבית שלך? <span>Forest Group</span> סוכנות נדל"ן
-            תמצא לכם את הנכס בסטייל ובמחיר המתאים לכם!
+            המשרד המוביל לנכסי נדל"ן ברמה הגבוהה ביותר. אתם רחוקים פגישת הכרות
+            אחת מהנכס הבא שלכם
           </h3>
 
           <div className="contact-btn">
-            <button className="section-contact-btn">צור קשר</button>
+            <button className="section-contact-btn">צרו קשר</button>
           </div>
         </div>
       </div>
