@@ -4,6 +4,7 @@
     --primary-color: #1E8998;
     --secondary-color: #225D78;
     --black-color: #225d78;
+    --text-black-color: #0B0B0B;
     --white-color: #ffffff;
     --gray-color: #fbfbfb;
     font-family: 'Assistant', sans-serif;
@@ -17,6 +18,10 @@
     color: var(--gray-color);
 }
 
+body {
+    background-color: #FBFBFB;
+}
+
 
 li,
 a {
@@ -25,15 +30,15 @@ a {
 }
 
 .section-contact-btn {
-    background-color: #375366;
-    padding: 12px 40px;
+    background-color: var(--primary-color);
+    padding: 12px 50px;
     border: none;
     outline: none;
     border-radius: 10px;
-    color: #fff;
+    color: var(--gray-color);
     cursor: pointer;
     transition: 0.2s ease-in;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .section-contact-btn:hover {

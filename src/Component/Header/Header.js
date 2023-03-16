@@ -31,9 +31,12 @@ const Header = () => {
         </div>
 
         <div className="left-nav">
-          <a href="#contact" className="contact-btn">
-            צרו קשר
-          </a>
+          <button>
+            <a href="#contact" className="contact-btn">
+              צרו קשר
+            </a>
+          </button>
+
           <div className="social-media">
             <div className="social-media-icon">
               <a href="#*">

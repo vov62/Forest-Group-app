@@ -1,0 +1,123 @@
+.company-value-container {
+  height: 240vh;
+  // background: url("../../images/pic_sectioin\ 3.png") no-repeat center/cover;
+  background: linear-gradient(179.4deg, #244365 0.52%, #1e8998 142.96%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+  padding: 100px 0;
+}
+
+.company-value-wrapper {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   padding-bottom: 80px;
+
+  text-align: center;
+
+  h2 {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 65px;
+  }
+}
+
+.company-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.company-value-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 70%;
+  margin-top: 60px;
+
+  //   border: 1px solid yellow;
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .company-value-outer-item {
+    width: 130px;
+    height: 130px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: relative;
+
+    .company-value-inner-item {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 95%;
+      height: 95%;
+      border-radius: 50%;
+      background: linear-gradient(180deg, #dbf5fe 0%, #f8e8ef 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      h3 {
+        color: var(--text-black-color);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  .arrow {
+    width: 350px;
+    height: 2px;
+    background-color: #dcf5fe;
+    position: relative;
+  }
+
+  .arrow::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    transform: translateY(-40%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #dcf5fe;
+  }
+  &:nth-child(even) {
+    .arrow::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0px;
+      transform: translateY(-40%);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #dcf5fe;
+    }
+  }
+}
+
+.company-value-item-text {
+  margin-right: 20px;
+  max-width: 30%;
+
+  p {
+    // font-weight: 500;
+    // line-height: 25px;
+    font-size: 14px;
+    text-align: right;
+    margin: 0 8px;
+  }
+}
