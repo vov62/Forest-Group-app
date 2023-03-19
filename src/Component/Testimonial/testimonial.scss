@@ -1,6 +1,5 @@
 .testimonials-container {
   height: 80vh;
-  //   background-color: rgb(190, 63, 63);
 
   h2 {
     font-weight: 600;
@@ -9,11 +8,26 @@
     text-align: right;
     color: #2d3134;
     padding-bottom: 20px;
+
+    @media only screen and (max-width: 480px) {
+      line-height: normal;
+      text-align: center;
+      padding-top: 30px;
+      font-size: 36px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    padding-top: 50px;
   }
 }
 
 .testimonials-wrapper {
-  //   background: red;
   margin: 10px 150px;
   padding: 10px;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    margin: 0 auto;
+  }
 }

@@ -3,16 +3,19 @@ import React from "react";
 import logo from "../../images/FG-- logo.png";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FiFacebook } from "react-icons/fi";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { AiOutlineClose } from "react-icons/ai";
 
 import "./Header.scss";
-
 const Header = () => {
   return (
     <header className="header-container">
       <div className="nav-wrapper">
         <div className="right-nav">
+          <div className="hamburger-nav">
+            <RxHamburgerMenu />
+          </div>
           <div className="logo">
-            {/* <img src={logo} alt="company logo" width={50} /> */}
             <img src={logo} alt="company logo" />
           </div>
           <nav>
@@ -61,9 +64,9 @@ const Header = () => {
           </h5>
         </div>
         <div className="headline-contact-link">
-          <a href="*#" className="contact-btn">
-            צרו קשר
-          </a>
+          <button className="contact-btn">
+            <a href="*#contact">צרו קשר</a>
+          </button>
         </div>
       </div>
     </header>

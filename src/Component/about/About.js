@@ -53,11 +53,13 @@ const About = () => {
                 מתמחים בסיוע ללקוחות במציאת הנכס המתאים להם בצורה מהירה ויעילה
                 תוך מתן חווית שירות משמעותית וחדשנית.
               </p>
-              <div className="contact-para">
+              <div className="contact-more-details">
                 <p>התעניינתם? בואו צרו קשר לפרטים נוספים</p>
               </div>
               <div className="about-contact-btn">
-                <button className="section-contact-btn">צרו קשר</button>
+                <button className="section-contact-btn">
+                  <a href="#contact">צרו קשר</a>
+                </button>
               </div>
             </div>
           </div>
