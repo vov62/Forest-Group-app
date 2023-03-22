@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import section5 from "../../images/pic_section 5.png";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FiFacebook } from "react-icons/fi";
@@ -98,7 +98,6 @@ const Contact = () => {
                     {loading ? "נא המתן..." : "צרו קשר"}
                   </button>
                 </div>
-
                 {isFormSubmitted ? (
                   <div className="thankYouMessage">
                     <p>תודה שהשארת פרטים, נחזור אליך בהקדם :)</p>
