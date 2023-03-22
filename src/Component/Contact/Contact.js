@@ -133,11 +133,19 @@ const Contact = () => {
                 <p>חפשו אותנו גם ברשתות</p>
 
                 <div className="footer-contact-social-icon">
-                  <a href="#*">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100068839242785"
+                    target={"_blank"}
+                    rel={"noreferrer"}
+                  >
                     <FiFacebook size={25} />
                   </a>
                   <div className="footer-contact-social-icon">
-                    <a href="#*">
+                    <a
+                      href="https://www.instagram.com/forestgroupp/ "
+                      target={"_blank"}
+                      rel={"noreferrer"}
+                    >
                       <AiOutlineInstagram size={25} />
                     </a>
                   </div>

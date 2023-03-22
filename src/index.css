@@ -16,10 +16,12 @@
     margin: 0;
     scroll-behavior: smooth;
     color: var(--gray-color);
+
 }
 
 body {
     background-color: #FBFBFB;
+
 }
 
 
@@ -46,6 +48,12 @@ a {
 }
 
 @media only screen and (max-width: 480px) {
+    .section-contact-btn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
     .section-contact-btn {
         width: 100%;
     }

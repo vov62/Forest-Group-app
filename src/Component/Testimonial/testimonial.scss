@@ -11,14 +11,19 @@
 
     @media only screen and (max-width: 480px) {
       line-height: normal;
-      text-align: center;
       padding-top: 30px;
       font-size: 36px;
+      height: 100%;
+    }
+    @media only screen and (max-width: 600px) {
+      text-align: center;
     }
   }
 
   @media only screen and (max-width: 480px) {
     padding-top: 50px;
+
+    // margin: 0px 10px;
   }
 }
 
@@ -26,8 +31,7 @@
   margin: 10px 150px;
   padding: 10px;
 
-  @media only screen and (max-width: 480px) {
-    width: 100%;
-    margin: 0 auto;
+  @media only screen and (max-width: 840px) {
+    margin: 0 50px;
   }
 }

@@ -5,19 +5,15 @@
   padding: 100px 0;
 
   @media only screen and (max-width: 480px) {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+  }
+  @media only screen and (max-width: 600px) {
     height: 100%;
     padding-bottom: 200px;
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
   }
 }
 
 .company-value-wrapper {
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   align-items: center;
-  //   padding-bottom: 80px;
-
   text-align: center;
 
   h2 {
@@ -124,6 +120,15 @@
     gap: 30px;
     max-width: 100%;
   }
+
+  @media only screen and (max-width: 600px) {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  @media only screen and (max-width: 840px) {
+    max-width: 100%;
+  }
 }
 
 .company-value-item-text {
@@ -131,8 +136,6 @@
   max-width: 30%;
 
   p {
-    // font-weight: 500;
-    // line-height: 25px;
     font-size: 14px;
     text-align: right;
     margin: 0 8px;
