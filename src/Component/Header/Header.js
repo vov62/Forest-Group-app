@@ -4,7 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { FiFacebook } from "react-icons/fi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
-import "./header.scss";
+import "./Header.scss";
 
 const Header = () => {
   // navbar state
