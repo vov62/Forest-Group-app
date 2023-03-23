@@ -213,7 +213,6 @@ nav {
 
 @media only screen and (max-width: 840px) {
   .nav-wrapper {
-    // background-color: red;
     height: 70px;
     position: relative;
     padding: 30px 5%;
@@ -243,13 +242,6 @@ nav {
   .navbar li {
     display: none;
   }
-
-  // .hamburger-close {
-  //   position: absolute;
-  //   top: 0;
-  //   right: 0;
-  //   z-index: 2;
-  // }
 
   .nav-wrapper .hamburger-nav {
     display: block;
