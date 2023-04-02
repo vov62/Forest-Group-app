@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import section5 from "../../images/pic_section 5.png";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineInstagram, AiOutlineWhatsApp } from "react-icons/ai";
 import { FiFacebook } from "react-icons/fi";
 import logo from "../../images/FG-fullLogo.png";
 import copyright from "../../images/Vector.png";
@@ -90,6 +90,9 @@ const Contact = () => {
                       <option value={selected} style={{ color: "#000" }}>
                         השכרה
                       </option>
+                      <option value={selected} style={{ color: "#000" }}>
+                        השקעה
+                      </option>
                     </select>
                   </div>
                 </div>
@@ -130,24 +133,31 @@ const Contact = () => {
               </div>
               <div className="footer-contact-socials-icons">
                 <p>חפשו אותנו גם ברשתות</p>
-
                 <div className="footer-contact-social-icon">
                   <a
-                    href="https://www.facebook.com/profile.php?id=100068839242785"
+                    href="https://wa.me/502221892
+               "
+                    target={"_blank"}
+                    rel={"noreferrer"}
+                  >
+                    <AiOutlineWhatsApp size={25} />
+                  </a>
+
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100089620044968"
                     target={"_blank"}
                     rel={"noreferrer"}
                   >
                     <FiFacebook size={25} />
                   </a>
-                  <div className="footer-contact-social-icon">
-                    <a
-                      href="https://www.instagram.com/forestgroupp/ "
-                      target={"_blank"}
-                      rel={"noreferrer"}
-                    >
-                      <AiOutlineInstagram size={25} />
-                    </a>
-                  </div>
+
+                  <a
+                    href="https://www.instagram.com/forestgroup__/ "
+                    target={"_blank"}
+                    rel={"noreferrer"}
+                  >
+                    <AiOutlineInstagram size={25} />
+                  </a>
                 </div>
               </div>
             </div>

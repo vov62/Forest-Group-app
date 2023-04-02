@@ -1,13 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../../images/FG-- logo.png";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FiFacebook } from "react-icons/fi";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineWhatsApp } from "react-icons/ai";
+import { motion } from "framer-motion";
 import "./Header.scss";
 
 const Header = () => {
-  // navbar state
+  // hamburger navbar state
   const [clicked, setClicked] = useState(true);
 
   const handleLinkClick = () => {
@@ -23,7 +24,7 @@ const Header = () => {
 
         {/* mobile menu */}
         <div className={clicked ? "mobile-menu noActive" : "mobile-menu"}>
-          <div className="mobile-menu-close">
+          <div className="mobile-menu-close-btn">
             <AiOutlineClose size={25} onClick={() => setClicked(!clicked)} />
           </div>
 
@@ -59,7 +60,17 @@ const Header = () => {
             <div className="social-media">
               <div className="social-media-icon">
                 <a
-                  href="https://www.facebook.com/profile.php?id=100068839242785"
+                  href="https://wa.me/502221892
+               "
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
+                  <AiOutlineWhatsApp size={25} />
+                </a>
+              </div>
+              <div className="social-media-icon">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100089620044968"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
@@ -105,6 +116,16 @@ const Header = () => {
           <div className="social-media">
             <div className="social-media-icon">
               <a
+                href="https://wa.me/502221892
+               "
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
+                <AiOutlineWhatsApp size={25} />
+              </a>
+            </div>
+            <div className="social-media-icon">
+              <a
                 href="https://www.facebook.com/profile.php?id=100068839242785"
                 target={"_blank"}
                 rel={"noreferrer"}
@@ -114,7 +135,7 @@ const Header = () => {
             </div>
             <div className="social-media-icon">
               <a
-                href="https://www.instagram.com/forestgroupp/ "
+                href="https://www.instagram.com/forestgroup__/ "
                 target={"_blank"}
                 rel={"noreferrer"}
               >
@@ -135,7 +156,7 @@ const Header = () => {
         </div>
         <div className="headline-contact-link">
           <button className="contact-btn">
-            <a href="*#contact">צרו קשר</a>
+            <a href="#contact">צרו קשר</a>
           </button>
         </div>
       </div>

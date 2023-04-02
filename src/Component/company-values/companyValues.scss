@@ -1,7 +1,9 @@
 .company-value-container {
-  height: 240vh;
+  height: 230vh;
   background: linear-gradient(179.4deg, #244365 0.52%, #1e8998 142.96%);
   clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+  transform: skewY(0.001deg);
+
   padding: 100px 0;
 
   @media only screen and (max-width: 480px) {
@@ -68,7 +70,9 @@
       align-items: center;
 
       h3 {
-        color: var(--text-black-color);
+        background: linear-gradient(270deg, #1e8998 8.62%, #225d78 94.83%);
+        background-clip: text;
+        color: transparent;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -136,9 +140,8 @@
   max-width: 30%;
 
   p {
-    font-size: 14px;
-    text-align: right;
-    margin: 0 8px;
+    font-size: 16px;
+    text-align: center;
 
     @media only screen and (max-width: 480px) {
       font-size: 16px;
