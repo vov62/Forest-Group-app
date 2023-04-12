@@ -3,7 +3,6 @@
   background: linear-gradient(179.4deg, #244365 0.52%, #1e8998 142.96%);
   clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
   transform: skewY(0.001deg);
-
   padding: 100px 0;
 
   @media only screen and (max-width: 480px) {
@@ -12,6 +11,12 @@
   @media only screen and (max-width: 600px) {
     height: 100%;
     padding-bottom: 200px;
+  }
+  @media only screen and (min-width: 1920px) {
+    height: 100%;
+    padding-bottom: 200px;
+
+    transform: skewY(0deg);
   }
 }
 
@@ -132,6 +137,11 @@
 
   @media only screen and (max-width: 840px) {
     max-width: 100%;
+  }
+
+  @media screen and (min-width: 1920px) {
+    // max-width: 100%;
+    // padding: 20px;
   }
 }
 

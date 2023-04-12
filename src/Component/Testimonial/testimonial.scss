@@ -1,5 +1,6 @@
 .testimonials-container {
   height: 80vh;
+  margin-top: 10px;
 
   h2 {
     font-weight: 600;
@@ -23,6 +24,10 @@
   @media only screen and (max-width: 480px) {
     padding-top: 50px;
   }
+
+  @media only screen and (min-width: 1920px) {
+    height: 50vh;
+  }
 }
 
 .testimonials-wrapper {
@@ -30,6 +35,10 @@
   padding: 10px;
 
   @media only screen and (max-width: 840px) {
-    margin: 0 50px;
+    // margin: 0 50px;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    margin: 0 350px;
   }
 }
