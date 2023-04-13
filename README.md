@@ -23,7 +23,7 @@ run 'npm start' to run the project  :grinning:
 </br>
 </br>
 
-<img width="600" alt="פורסט 3" src="https://user-images.githubusercontent.com/71568364/231761325-ce3f38e8-f446-4501-aa33-373dd9f8f547.png">
+<img width="600" alt="פורסט 3" src="https://user-images.githubusercontent.com/71568364/231762134-66379e5b-4930-4497-8871-72613f54e10f.png">
 </br>
 </br>
 
