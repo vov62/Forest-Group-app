@@ -2,7 +2,7 @@ import Layout from "./Pages/Layout/Layout";
 
 function App() {
   return (
-    <div className="App" style={{ overflow: "hidden" }}>
+    <div className="App">
       <Layout />
     </div>
   );

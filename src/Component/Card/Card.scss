@@ -5,7 +5,8 @@
   position: relative;
 
   @media only screen and (max-width: 480px) {
-    margin-left: 20px;
+    // margin-left: 20px;
+    // gap: 10px;
   }
 }
 .testimonials-card {
@@ -27,7 +28,7 @@
     }
 
     @media only screen and (min-width: 1920px) {
-      right: 18%;
+      right: 8%;
     }
   }
   .testimonials-top {
